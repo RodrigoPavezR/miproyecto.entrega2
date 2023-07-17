@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Chico</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="catalogoheader">
+        <img src="../assets/contacto.png" alt="Contacto" width="100%">
+    <nav class="catalogonav">
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="catalogo.html">CATALOGO</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="hablemos.html">HABLEMOS</a></li>
+            <li><a href="https://www.instagram.com"><img class="logoig" src="../assets/logoig.png" alt="Logo ig" width="25rem"></a></li>
+        </ul>
+    </nav>
+    </header>
+    <main class="maincontacto"> 
+        <h3>Contactanos</h3>
+        <form action="procesar_form.php" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>©Copyright 2022. Todos los Derechos Reservados. Política de Privacidad | Términos & Condiciones
+            Centro de Atención al Cliente: 0800-362-2740 / L a V de 9 a 21 hs   S y D de 10 a 18 | tiendaonline@artemadera.com.ar.
+            Dirección General de Defensa y Protección al Consumidor
+        </p> 
+     </footer>
+</body>
+</html>
